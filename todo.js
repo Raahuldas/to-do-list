@@ -32,6 +32,8 @@ function addList() {
     if (ip == "") {
         alert("write something to add!");
     } else {
+        document.getElementById("addip").value="";
+
         let ul = document.getElementById("ul");
         let txtNode = document.createTextNode(ip);
         let li = document.createElement("li");
