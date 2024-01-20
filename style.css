@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    width: 100%;
+    height: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: ghostwhite;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0000003d;
+}
+
+.add{
+    width: 90%;
+    height: 40px;
+}
+
+.add input{
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.add button{
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #0000ffa3;
+    color: white;
+}   
+
+.content{
+    width: 100%;
+    height: 559px;
+    padding: 0 30px;
+    background-color: ghostwhite;
+    overflow-y: scroll;
+}
+
+.content ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul li{
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 10px 2px darkgray;
+    position: relative;
+    border-radius: 5px;
+}
+
+li:hover{
+    background-color: whitesmoke;
+}
+
+.close{
+    position: absolute;
+    right: 2px;
+    top: -0.5px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+.checked{
+    text-decoration: line-through;
+}
